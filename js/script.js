@@ -27,6 +27,7 @@
 					case '/':this.set('value1', Number(this.get('value1')) / Number(this.get('value2')));break;
 				}
 				this.set('value2', 0);
+				this.set('operation', 0);
 				this.monitorValue = this.value1;
 			}
 		},
